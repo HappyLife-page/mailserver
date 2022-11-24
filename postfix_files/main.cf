@@ -24,9 +24,9 @@ compatibility_level = 2
 
 
 # TLS parameters
-smtpd_tls_cert_file=/etc/ssl/mail.cooyoy.com.fullchain.cer
-smtpd_tls_key_file=/etc/ssl/mail.cooyoy.com.key
-#smtpd_tls_CAfile=/etc/letsencrypt/live/mail.cooyoy.com/chain.pem
+smtpd_tls_cert_file=/etc/ssl/mail.happylife.page.fullchain.cer
+smtpd_tls_key_file=/etc/ssl/mail.happylife.page.key
+#smtpd_tls_CAfile=/etc/letsencrypt/live/mail.happylife.page/chain.pem
 smtpd_tls_security_level=may
 smtpd_use_tls=yes
 #smtp_tls_CApath=/etc/ssl/certs
@@ -51,7 +51,7 @@ smtpd_sasl_auth_enable = yes
 smtpd_recipient_restrictions = permit_sasl_authenticated,permit_mynetworks,reject_unauth_destination
 
 smtpd_relay_restrictions = permit_mynetworks permit_sasl_authenticated defer_unauth_destination
-myhostname = mail.cooyoy.com
+myhostname = mail.happylife.page
 alias_maps = hash:/etc/aliases
 alias_database = hash:/etc/aliases
 myorigin = /etc/mailname
