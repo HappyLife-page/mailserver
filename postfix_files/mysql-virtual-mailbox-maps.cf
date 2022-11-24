@@ -1,6 +1,6 @@
 user = root
-password = Sa123456.
-#port = 3306
+password = xjdJ&mdl3Hm
+port = 3306
 hosts = 127.0.0.1
 dbname = mx
 query = SELECT 1 FROM virtual_users WHERE email='%s'
