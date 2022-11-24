@@ -1,6 +1,0 @@
-user = root
-password = xjdJ&mdl3Hm
-port = 3306
-hosts = 127.0.0.1
-dbname = mx
-query = SELECT destination FROM virtual_aliases WHERE source='%s'
