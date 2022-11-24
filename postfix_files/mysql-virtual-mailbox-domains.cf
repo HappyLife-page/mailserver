@@ -1,0 +1,6 @@
+user = root
+password = xjdJ&mdl3Hm
+port = 3306
+hosts = 127.0.0.1
+dbname = mx
+query = SELECT 1 FROM virtual_domains WHERE name='%s'
